@@ -11,9 +11,9 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    overflow: hidden;
     padding:0.1px;
     background-color: #745D9B;
+    overflow-x: hidden;
 }
 nav{
     height: 20vh;
@@ -23,8 +23,50 @@ nav{
     align-items: center;
     justify-content: center;
     margin:5vh;
-    overflow-x: hidden;
 }
 .logo{
     height: 100%;
+}
+#tasks{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+h3{
+    width: 100%;
+    color:#FEFFFE;
+    font-size: 30px;
+    margin: 3px;
+    padding: 5px;
+}
+#addatask{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(15, 153, 118); */
+    padding: 2px;
+}
+.ipt_text{
+    width: 30%;
+    height: 30%;
+    margin-right: 2px;
+    border: 2px solid #4b3374;
+
+}
+.ipt_text::placeholder{
+    text-align: center;
+}
+
+#btn{
+    height: 30%;
+    width: 5%;
+    border-radius: 50%;
+    background-color: #FDACAA;
+    border-color: none;
 }
